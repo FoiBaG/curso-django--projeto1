@@ -10,7 +10,7 @@ def home(request):
 
 
 def contato(request):
-    return render(request, 'delete-me/temp.html')
+    return render(request, 'recipes/contatos.html')
 
 
 def sobre(request):
